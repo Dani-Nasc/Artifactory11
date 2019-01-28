@@ -19,6 +19,9 @@
     </properties>
 
     <dependencies>
+             <dependency org="org.apache.maven.plugins" name="maven-clean-plugin" rev="2.5">
+  <artifact name="maven-clean-plugin" type="maven-plugin" />
+</dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
