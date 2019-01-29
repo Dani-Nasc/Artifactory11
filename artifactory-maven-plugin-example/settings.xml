@@ -30,7 +30,7 @@
         <updatePolicy>always</updatePolicy>
         <snapshots>
          
-              <enabled>false</enabled>
+              <enabled>true</enabled>
               <updatePolicy>always</updatePolicy>
           <checksumPolicy>warn</checksumPolicy>
         </snapshots>
@@ -40,7 +40,7 @@
         <url>http://localhost:8081/artifactory/libs-snapshot</url>
       
         <releases>
-            <enabled>false</enabled>
+            <enabled>true</enabled>
               <updatePolicy>always</updatePolicy>
           <checksumPolicy>warn</checksumPolicy>
         </releases>
@@ -52,7 +52,7 @@
         <url>http://localhost:8081/artifactory/plugins-release</url>
          
         <snapshots>
-  <enabled>false</enabled>
+  <enabled>true</enabled>
               <updatePolicy>always</updatePolicy>
           <checksumPolicy>warn</checksumPolicy>            <enabled>false</enabled>
         </snapshots>
@@ -61,7 +61,7 @@
         <id>snapshots</id>
         <url>http://localhost:8081/artifactory/plugins-snapshot</url>
         <releases>
-              <enabled>false</enabled>
+              <enabled>true</enabled>
               <updatePolicy>always</updatePolicy>
           <checksumPolicy>warn</checksumPolicy>
         </releases>
