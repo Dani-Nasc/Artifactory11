@@ -26,14 +26,14 @@
     <repositories>
     <repository>
         <id>central</id>
-        <url>http://[host]:[port]/artifactory/libs-release</url>
+        <url>http://172.16.1.210:8080/artifactory/libs-release</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://[host]:[port]/artifactory/libs-snapshot</url>
+        <url>http://172.16.1.210:8080/artifactory/libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
