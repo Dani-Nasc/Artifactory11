@@ -26,14 +26,14 @@
     <repositories>
     <repository>
         <id>central</id>
-        <url>http://172.16.1.210:8080/artifactory/libs-release</url>
+        <url>http://172.16.1.210:8081/artifactory/libs-release</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://172.16.1.210:8080/artifactory/libs-snapshot</url>
+        <url>http://172.16.1.210:8081/artifactory/libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
@@ -42,14 +42,14 @@
 <pluginRepositories>
     <pluginRepository>
         <id>central</id>
-        <url>http://172.16.1.210:8080/artifactory/plugins-release</url>
+        <url>http://172.16.1.210:8081/artifactory/plugins-release</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </pluginRepository>
     <pluginRepository>
         <id>snapshots</id>
-        <url>http://172.16.1.210:8080/artifactory/plugins-snapshot</url>
+        <url>http://172.16.1.210:8081/artifactory/plugins-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
